@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('/font/SEGOEUI.TTF');
+  }
+body{
+
+font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+color: #000;
+background-color: #fff;
+}
+.header-top{
+    width: 100%;
+}
+.container{
+    width: 100%;
+    padding: 0 5%;
+}
+.d-fl{
+    display: flex;
+}
+.a-it{
+    align-items: center;
+}
+.js-c{
+    justify-content: center;
+}
+.js-c1{
+    justify-content: space-around;
+}
+.js-c2{
+    justify-content: space-between;
+}
+.mt{
+    margin-top: 40px;
+}
+.in-p{
+    padding: 50px 250px;
+}
+.h-logo{
+    width: 137px;
+    padding: 14px 0;
+    height: 100%;
+    
+
+}
+.h-logo img{
+    width: 100%;
+}
+.h-nav{
+position: relative;
+left: 30px;
+}
+.h-nav2{
+    position: relative;
+    margin-left: 400px;
+   
+    }
+.h-nav2 ul li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 20px;
+    
+}
+.h-nav2 ul li a{
+        text-decoration: none;
+        color: #000;
+    }
+.h-nav ul li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 15px;
+    font-size: 13px;
+}
+.h-nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.h-nav ul li a:hover{
+    border-bottom: 2px solid #000;
+    
+}
+.h-icon{
+    position: relative;
+}
+.banner{
+    width:100% ;
+    height: 600px;
+    background-image: url(./images/header-img.jpg);
+    background-size: cover;
+    background-position: -60px 0;
+   
+}
+.b-inner{
+    padding: 48px;
+    width: 35%;
+    margin-top: 130px;
+}
+.b-inner h2{
+    margin-bottom: 16px;
+    font-size: 29px;
+}
+.b-inner p{
+    margin-bottom: 24px;
+}
+.btn{
+    background-color:#0067b8;
+    border: none;
+    outline: none;
+    color:#fff;
+    padding: 10px 12px;
+
+    border: 2px sold transparent;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color:#0260a8;
+
+}
+.btn2{
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    color:#0067b8;
+    padding: 8px 0px;
+    border: none;
+    margin-left: 24px;
+
+    
+
+}
+.btn2:hover{
+    text-decoration: underline;
+   
+}
+.product{
+    display: block;
+    text-align: center;
+}
+.product ul li{
+    list-style-type: none;
+}
+.product ul li a{
+    color: #0067b8;
+    font-weight: 600;
+}
+.card{
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.card h2{
+    margin-bottom: 12px;
+    padding-top: 32px;
+}
+.card p{
+    margin-bottom: 16px;
+}
+.edge-hero{
+    background-image: url(./images/hero-Edge.jpg);
+    width: 100%;
+    height: 600px;
+    margin: 80px 0;
+    display: flex;
+    align-items: center;
+
+}
+.edge-card{
+    width: 30%;
+    height: auto;
+    background-color: #fff;
+    margin-left: 48px;
+    padding: 48px;
+   
+ 
+}
+.edge-card h2, p {
+    margin-bottom: 16px;
+}
+.social{
+    width: 35%;
+    margin-top: 30px;
+}
+.social ul li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.footer{
+    width: 100%;
+    background-color: #f2f2f2;
+    margin-top: 80px;
+}
+.f-inner{
+    margin-top: 50px;
+    width: 100%;
+   
+}
+.f-inner ul li{
+    list-style-type: none;
+    font-size: 13px;
+    line-height: 3;
+    color:#616161 
+}
+.f-inner h4{
+    color: #616161;
+
+}
+.footer ul li{
+    list-style-type: none;
+}
+
+.foot1 ul li {
+    list-style-type: none;
+    display: inline;
+    font-size: 13px;
+    color:#616161 
+}
+.foot1 ul li i{
+font-size: 20px;
+}
+.foot2 ul li {
+    list-style-type: none;
+    display: inline;
+    color:#616161 ;
+    font-size: 13px;
+
+}
